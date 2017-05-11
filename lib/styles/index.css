@@ -1,0 +1,36 @@
+.mongo-shell {
+  padding: 10px;
+  width: 100vw;
+}
+.mongo-shell .output {
+  background-color: white;
+  height: 85vh;
+}
+.mongo-shell .input {
+  height: 5vh;
+}
+.mongo-shell .input input {
+  width: 100%;
+  margin-top: 5px;
+}
+.mongo-shell pre {
+  height: inherit;
+  overflow: scroll;
+  display: inherit;
+  font-family: monospace;
+  background-color: #fff;
+  width: em(440);
+  padding: 0.5em;
+  line-height: 0;
+}
+.mongo-shell pre span {
+  display: block;
+  line-height: 1.5rem;
+}
+.mongo-shell pre span:before {
+  display: inline-block;
+  border-right: 1px solid #ddd;
+  padding: 0 .5em;
+  margin-right: .5em;
+  color: #888;
+}

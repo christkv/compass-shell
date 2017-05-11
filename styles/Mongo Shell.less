@@ -1,0 +1,45 @@
+.mongo-shell {
+  padding: 10px;
+  width: 100vw;
+
+  .output {
+    background-color: white;
+    height: 85vh;    
+  }
+
+  .input {
+    height: 5vh;
+    
+    input {
+      width: 100%;
+      margin-top: 5px;
+    }
+  }
+
+  pre {
+    height: inherit;
+    overflow: scroll;
+    display: inherit;
+    font-family: monospace;
+    background-color: #fff;
+    width: em(440);
+    padding: 0.5em;
+    line-height: 0;
+    // counter-reset: line;
+    
+    span {
+      display: block;
+      line-height: 1.5rem;
+      
+      &:before {
+    //     counter-increment: line;
+    //     content: counter(line);
+        display: inline-block;
+        border-right: 1px solid #ddd;
+        padding: 0 .5em;
+        margin-right: .5em;
+        color: #888
+      }
+    }
+  }  
+}
