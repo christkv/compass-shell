@@ -70,7 +70,7 @@
     "sinon": "^1.17.6",
     "sinon-chai": "^2.8.0",
     "watch": "^1.0.2",
-    "mongo-shell": "1.0.0"
+    "mongo-shell": "christkv/mongo-shell#master"
   },
   "dependencies": {
     "ansi-html": "0.0.7",
